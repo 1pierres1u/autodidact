@@ -43,6 +43,14 @@ struct MyStructA{
 	MyStructA(int j,const A& a):i(j),ax(a){}
 };
 
+struct MyStructPP{
+	private:
+		int i;
+	public:
+		int j;
+		int k;
+		MyStructPP(int u, int v, int w):i(u),j(v),k(w){}
+};
 
 void binding(){
 	MyStruct m(9,"hi");
@@ -66,6 +74,9 @@ void binding(){
 	MyStructp mp(9,10);
 	//auto [t,f] = mp; //error: cannot decompose inacessible member
 	//cout << t << " " << f << endl;
+	MyStructPP mpp(10,11,12);
+	//auto [r,s] = mpp; //error: cannot decompose inacessible member
+	//all the attributes have to be public
 }
 
 void qualifiers(){
