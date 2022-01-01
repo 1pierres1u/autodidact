@@ -23,9 +23,9 @@ class B:public A{
 
 
 int main(int argc,char** argv){
-	A* ax;
-	ax=new B();
-	ax->f();
-		
+	A** ax;
+	ax=new A*[10];
+	ax[0] = new B();
+	ax[0]->f();
 	return 0;
 }
