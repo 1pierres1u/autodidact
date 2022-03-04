@@ -11,10 +11,10 @@ class B:public A{
 	private:
 		set<ull> sx;
 	public:
-		B(){}
-		B(set<ull> s):sx(s){}
-		B(const B& b):sx(b.sx),A(b){}
-		B(B&& b):sx(move(b.sx)),A(move(b)){}
+		B();
+		B(set<ull> s);
+		B(const B& b);
+		B(B&& b);
 		friend ostream& operator<<(ostream& out, B& b){
 			out << "[";
 			for(auto u:b.sx)
@@ -22,11 +22,6 @@ class B:public A{
 			out << "]";
 			return out;
 		}
-		void generate(){
-			A::generate();
-			for(int i=0; i<ix; i++){
-				sx.insert(rand()%ix);
-			}
-		}
+		void generate();
 };
 #endif
