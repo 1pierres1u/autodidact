@@ -30,5 +30,4 @@ class A{
 		size_t get_size()const;
 		void generate();
 };
-#include "app_a.cpp"
 #endif

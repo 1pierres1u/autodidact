@@ -1,3 +1,4 @@
+#include "app_a.h"
 A::A():n(1){
 	srand(time(0));
 }

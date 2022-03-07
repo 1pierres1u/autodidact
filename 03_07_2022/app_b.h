@@ -19,5 +19,4 @@ class B{
 		void set_f(function<void(void)> fx);
 		void execute();
 };
-#include "app_b.cpp"
 #endif 

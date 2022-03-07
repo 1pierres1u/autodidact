@@ -1,3 +1,4 @@
+#include "app_b.h"
 B::B(){}
 void B::set_f(function<void(void)> fx){
 	f = fx;
