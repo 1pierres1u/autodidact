@@ -18,5 +18,4 @@ class B{
 		B(B&& b);
 		void execute(function<void(A)> action);
 };
-#include "app_b.cpp"
 #endif

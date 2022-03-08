@@ -1,3 +1,4 @@
+#include "app_b.h"
 B::B(){}
 B::B(const B& b){}
 B::B(B&& b){}

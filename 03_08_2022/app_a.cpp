@@ -1,3 +1,4 @@
+#include "app_a.h"
 A::A():File("")
 {}
 A::A(std::string file):File(file)
@@ -27,6 +28,6 @@ void A::read(){
 void A::add(ull ux){
 	Set.insert(ux);
 }
-auto A::find(ull ux){
+bool A::find(ull ux){
 	return Set.find(ux)!=Set.end();
 }

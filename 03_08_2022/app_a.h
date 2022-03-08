@@ -32,7 +32,6 @@ class A{
 		void save()const;
 		void read();
 		void add(ull ux);
-		auto find(ull ux);
+		bool find(ull ux);
 };
-#include "app_a.cpp"
 #endif
