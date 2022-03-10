@@ -93,5 +93,4 @@ class A:public Z{
 		W<size_t>& front();
 		W<size_t>& back();
 };
-#include "app_a.cpp"
 #endif

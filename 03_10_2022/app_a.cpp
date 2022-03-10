@@ -1,3 +1,5 @@
+#include "app_a.h"
+
 A::A():loaded(false),file("")
 {}
 A::A(queue<W<size_t>>& q):loaded(false),file("")
