@@ -1,0 +1,10 @@
+^C:\USERS\1PIER\DESKTOP\Z\AUTODIDACT\03_30_2022\CMAKE\LIBRARY_OBJECT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/1pier/Desktop/Z/autodidact/03_30_2022/cmake/library_object -BC:/Users/1pier/Desktop/Z/autodidact/03_30_2022/cmake/library_object/build --check-stamp-file C:/Users/1pier/Desktop/Z/autodidact/03_30_2022/cmake/library_object/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

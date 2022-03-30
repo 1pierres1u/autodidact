@@ -1,0 +1,4 @@
+C:/Users/1pier/Desktop/Z/autodidact/03_30_2022/cmake/compiler_flags/build/CMakeFiles/message.dir
+C:/Users/1pier/Desktop/Z/autodidact/03_30_2022/cmake/compiler_flags/build/CMakeFiles/hello-world.dir
+C:/Users/1pier/Desktop/Z/autodidact/03_30_2022/cmake/compiler_flags/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/1pier/Desktop/Z/autodidact/03_30_2022/cmake/compiler_flags/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\1pier\Desktop\Z\autodidact\03_30_2022\cmake\compiler_flags\message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\1pier\Desktop\Z\autodidact\03_30_2022\cmake\compiler_flags\message.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\1pier\Desktop\Z\autodidact\03_30_2022\cmake\compiler_flags\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{65148C31-1341-36A8-9F61-7DD275D569BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{00CA9966-2795-3FC1-AA05-95056240F4FD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
