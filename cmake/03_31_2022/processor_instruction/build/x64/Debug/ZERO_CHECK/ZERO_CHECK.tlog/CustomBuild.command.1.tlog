@@ -1,0 +1,10 @@
+^C:\USERS\1PIER\DESKTOP\Z\AUTODIDACT\CMAKE\03_31_2022\PROCESSOR_INSTRUCTION\BUILD\CMAKEFILES\EAADE7230D855DBA4FB7996858EFAF3C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/1pier/Desktop/Z/autodidact/cmake/03_31_2022/processor_instruction -BC:/Users/1pier/Desktop/Z/autodidact/cmake/03_31_2022/processor_instruction/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/1pier/Desktop/Z/autodidact/cmake/03_31_2022/processor_instruction/build/pro_ins.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+C:/Users/1pier/Desktop/Z/autodidact/cmake/03_31_2022/processor_instruction/build/CMakeFiles/processor-info.dir
+C:/Users/1pier/Desktop/Z/autodidact/cmake/03_31_2022/processor_instruction/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/1pier/Desktop/Z/autodidact/cmake/03_31_2022/processor_instruction/build/CMakeFiles/ZERO_CHECK.dir
