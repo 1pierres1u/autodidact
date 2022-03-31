@@ -1,0 +1,2 @@
+C:/Users/1pier/Desktop/Z/autodidact/cmake/03_30_2022/discovering_operating_system/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/1pier/Desktop/Z/autodidact/cmake/03_30_2022/discovering_operating_system/build/CMakeFiles/ZERO_CHECK.dir
