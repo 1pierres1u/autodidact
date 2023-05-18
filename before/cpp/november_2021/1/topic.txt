@@ -1,8 +1,0 @@
-friend function
-operator overloading
-raw pointer
-template function
-structured binding
-member initializer list
-templated method
-deleted constructor
